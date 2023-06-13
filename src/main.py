@@ -36,18 +36,13 @@ def get_project_info(api: sly.Api):
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(description="Upload dataset to instance.")
-    # parser.add_argument(
-    #     "--forces", type=json.loads, default="{}", help="Which parameters to force."
-    # )
+    parser = argparse.ArgumentParser(description="Upload dataset to instance.")
+    parser.add_argument(
+        "--forces", type=json.loads, default="{}", help="Which parameters to force."
+    )
 
-    # args = parser.parse_args()
-    # forces = args.forces
-    forces = {
-        "force_stats": ["all"],
-        "force_visuals": ["all"],
-        "force_texts": ["all"],
-    }
+    args = parser.parse_args()
+    forces = args.forces
 
     sly.logger.info(f"Script is starting with forces: {forces}")
 
