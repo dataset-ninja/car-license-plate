@@ -71,3 +71,5 @@ def convert_and_upload_supervisely_project(
         api.annotation.upload_anns(img_ids, anns)
 
         progress.update(len(images_names_batch))
+
+    return project
