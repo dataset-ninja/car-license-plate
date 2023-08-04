@@ -7,4 +7,4 @@ url={https://makeml.app/datasets/cars-license-plates},
 journal={Make ML}}
 ```
 
-[🔗 Source](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
+[Source](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
