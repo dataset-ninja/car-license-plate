@@ -1,4 +1,4 @@
-Dataset **Car License Plate** can be downloaded in Supervisely format:
+Dataset **Car License Plate** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
  [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/5/R/m5/MzylmEpcZsWy0ijvl2WTbaM9E7gn8D0pVFCG7wcOUeDbmd221xLsRsJPyJAKOPpNE7GSpz3Eb1CkchBaVr7UdFx7PaPp5NQG172yK19VZDlAn2scCmYT1MZuygmI.tar)
 
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Car License Plate', dst_path='~/dtools/datasets/Car License Plate.tar')
+dtools.download(dataset='Car License Plate', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection/download?datasetVersionNumber=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection/download?datasetVersionNumber=1)
