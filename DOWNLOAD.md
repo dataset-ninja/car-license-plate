@@ -1,6 +1,6 @@
 Dataset **Car License Plate** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/n/W/SO/okXZVYKdgJ6G2vKN1n3q0DiFkxXdb2V2PfUDGUSg1P5fo8bIoRiO3oxUW3Cs9zrCTwS1G5xaABhQiXXaGzSqnZXog0wdet1Q66LclQH4XQOvXmqIOmyVBQUbr2hf.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/6/U/zK/9U0GLkBsxKY8tESvRo5OvCczodsb5RcCQ3ChUxEhyxJfYB3Hzd5sSOvGwemAqWKUXmC22iHMSssQtCT1rVYLvkUY8dDXlapzQRDMjyLEilo42JFoP1hVjJP6qEfX.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
