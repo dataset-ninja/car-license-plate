@@ -54,8 +54,8 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {"license plate": [127, 255, 0]}
 
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Andrew Maranhão"]
-AUTHORS_CONTACTS: Optional[List[str]] = ["https://www.kaggle.com/andrewmvd"]
+AUTHORS: Optional[List[str]] = None
+AUTHORS_CONTACTS: Optional[List[str]] = None
 
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
